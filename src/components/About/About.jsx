@@ -10,7 +10,7 @@ function About() {
 
   const handleButtonClick = () => {
     // Handle button click (e.g., navigate back to the home page)
-    navigate('/');
+    navigate('/home');
   };
 
   return (
