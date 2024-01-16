@@ -1,0 +1,33 @@
+/* Add this style to your Menu.css file */
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.hero {
+
+}
+
+.row {
+  display: flex;
+padding: 3rem;
+}
+
+.cube-char {
+  display: inline-block;
+  width: auto; /* Adjust the width and height as needed */
+  height: auto;
+  text-align: center;
+  line-height: 1;
+  font-size: 18px;
+}
+
+/* Add additional styling for a background, border, or any other desired effects */
+
+
+/* Canvas Styling */
+canvas {
+  /* border: 2px solid #ffffff;  */
+}
+

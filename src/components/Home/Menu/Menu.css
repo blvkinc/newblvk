@@ -1,0 +1,21 @@
+.menu{
+z-index: 99;
+position: fixed;
+top: 300px;
+}
+
+.menu-item {
+  margin-right: 20px; /* Adjust the margin as needed */
+  text-align: right;
+}
+
+.menu-item  {
+  text-decoration: none;
+  color: white;
+  padding: 10px; /* Use the same color as the text to maintain consistency */
+  font-size: 1.3rem;
+}
+
+.hero{
+  padding: 10px;
+}

@@ -1,0 +1,14 @@
+/* Footer.css */
+
+.footer-container {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  font-size: 16px;
+}
+
+/* Add any additional styling based on your design preferences */

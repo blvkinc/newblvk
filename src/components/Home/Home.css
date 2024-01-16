@@ -1,0 +1,19 @@
+.overlay {
+  position: relative;
+}
+
+.cl {
+  z-index: 99;
+  position: absolute;
+  top: 20vh; /* Adjust the top position as needed */
+  left: 6vw; /* Default left position */
+  color: white; /* Adjust the text color as needed */
+
+  @media (min-width: 1080px) {
+    left: 2.5vw; /* Adjust the left position for screens greater than or equal to 1080px */
+  }
+
+  @media (max-width: 412px) {
+    left: 13vw; /* Adjust the left position for screens greater than or equal to 412px */
+  }
+}
