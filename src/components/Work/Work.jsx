@@ -1,4 +1,5 @@
 import React from 'react'
+import PageTransition from '../Styles/Transition';
 
 function Work() {
   return (
@@ -6,4 +7,4 @@ function Work() {
   )
 }
 
-export default Work
+export default PageTransition(Work)

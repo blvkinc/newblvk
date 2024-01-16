@@ -1,4 +1,5 @@
 import React from 'react'
+import PageTransition from '../Styles/Transition';
 
 function Contact() {
   return (
@@ -6,4 +7,4 @@ function Contact() {
   )
 }
 
-export default Contact
+export default PageTransition(Contact)

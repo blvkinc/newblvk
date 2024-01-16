@@ -1,42 +1,33 @@
-/* For desktop screens */
-.container {
-  display: flex;
-  align-items: flex-start; /* Align items at the start */
+.topcanvas {
+  position: relative;
+  z-index: 1;
 }
 
-.aboutimage {
-  flex: 1; /* Take up all available space */
-  display: flex;
-  justify-content: center; /* Center the image horizontally */
+.bottomcanvas {
+  position: fixed;
+  top: 500px;
+  left: 20%;
+  transform: translateX(-50%);
+  z-index: 2;
+  text-align: right;
 }
 
-.imgabout {
-  max-width: 100%; /* Ensure image doesn't exceed its container */
-  height: auto; /* Maintain aspect ratio */
-  width: 300px;
-  z-index: -1; /* Reset width for flexibility */
-}
-
-.aboutme {
-  flex: 1; /* Take up all available space */
-  /* Other styles for the about me container */
-}
-
-/* For smaller screens - Mobile responsive */
 @media (max-width: 768px) {
-  .container {
-    flex-direction: column; /* Change to a column layout */
-    align-items: center; /* Center items in mobile view */
+  .bottomcanvas {
+    left: 10px;
+    transform: none;
   }
+}
 
-  .aboutimage,
-  .aboutme {
-    flex: none; /* Reset flex property */
-    width: 100%; /* Take full width */
-    /* Additional mobile styles if needed */
-  }
+.backbutton {
+  width: 75px;
+  height: 20px;
+  background: rgb(255, 255, 255);
+  transition: width 0.5s;
+  cursor: pointer;
+}
 
-  .imgabout {
-    width: 80%; /* Adjust image width for mobile view */
-  }
+.backbutton:hover {
+  width: 200px;
+  transition: width 0.5s;
 }

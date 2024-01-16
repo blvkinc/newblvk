@@ -20,10 +20,11 @@ let gridSize = 3;
 p.setup = function () {
     p.createCanvas(window.innerWidth, window.innerHeight);
     generateCube();
+    p.background(255,0);
 };
 
 p.draw = function () {
-    p.background(0);
+    p.clear();
     displayCube();
     animateCube();
 };
@@ -89,10 +90,8 @@ function Aboutimage() {
     }, []);
   
     return (
-      <div className="overlay">
-       <div className='cl'> text</div>
+      
         <div className="App" ref={p5ContainerRef} />
-      </div>
     );
   }
 export default Aboutimage;
