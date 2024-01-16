@@ -1,0 +1,2 @@
+.topcanvas{position:relative;z-index:1}.bottomcanvas{left:20%;position:fixed;text-align:right;top:500px;transform:translateX(-50%);z-index:2}@media (max-width:768px){.bottomcanvas{left:10px;transform:none}}.backbutton{background:#fff;cursor:pointer;height:20px;transition:width .5s;width:75px}.backbutton:hover{transition:width .5s;width:200px}
+/*# sourceMappingURL=402.9ca40eda.chunk.css.map*/
